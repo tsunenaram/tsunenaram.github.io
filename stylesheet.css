@@ -205,7 +205,7 @@ section:nth-child(2n){
 ギャラリーのためのcss
 ===================================*/
 .gallery{
-columns: 4;/*段組みの数*/
+columns: 3;/*段組みの数*/
 padding:0 15px;/*ギャラリー左右に余白をつける*/
 }
 
@@ -222,7 +222,7 @@ padding:0 15px;/*ギャラリー左右に余白をつける*/
 /*　横幅900px以下の段組み設定　*/
 @media only screen and (max-width: 900px) {
   .gallery{
-  columns:2;
+  columns:1;
   } 
 }
 
