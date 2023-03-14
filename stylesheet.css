@@ -95,6 +95,7 @@ opacity: 1;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-weight: bold;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
 }
 
 
@@ -155,22 +156,26 @@ opacity: 1;
 
 h1{
   font-size:1.2rem;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
 }
 
 h2{
   font-size:1.2rem;
   text-align: center;
   margin: 0 0 30px 0;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
 }
 
 p{
   margin-top:20px;  
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
 }
 
 small{
   color:#fff;
   display: block;
   text-align: center;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
 }
 
 #header{
