@@ -221,9 +221,94 @@ opacity: 1;
     }
 }
 
+a:hover {
+  color: #000;
+}
 
+hr {
+  height: 1px;
+  border: 0;
+  border-top: 1px solid palegoldenrod;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer {
+  padding: 2rem;
+  font-size: 15px;
+  color: #4b5564;
+  background:lightseagreen;
+}
+
+.footer__navi-heading {
+  font-weight: 600;
+}
+
+.footer__logo {
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.footer__navi li {
+  margin-bottom: 0.75rem;
+}
+
+.footer__social a {
+  display: inline-block;
+  width: 24px;
+  opacity: 0.7;
+}
+
+.footer__social a:not(:last-child) {
+  margin-right: 16px;
+}
+
+@media (min-width: 768px) {
+  .md-flex {
+    display: flex;
+  }
+
+  .md-justify-between {
+    justify-content: space-between;
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+/*========= スクロールトップのためのCSS ===============*/
+.scroll-top {
+  // ボタンを右下で固定位置にする
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  
+  width: 35px;
+  height: 35px;
+  background: white;
+  border-radius: 50%;
+  cursor: pointer;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll-top a {
+  text-decoration: none;
+  color: black;
+}
 
 /*========= レイアウトのためのCSS ===============*/
+html {
+   font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+}
+
 body{
   background-color: lightseagreen;
   font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
