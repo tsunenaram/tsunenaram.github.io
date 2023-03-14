@@ -9,10 +9,20 @@
 <!--==============レイアウトを制御する独自のCSSを読み込み===============-->
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css" />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css">
+</head>
+
+<!--==============ニュースティッカー===============-->
 </head>
 <header id="header">
     <h1>sample</h1>
 </header>
+
+<ul class="slider">
+<li><a href="#"><span>2021.11.01</span>1 つめのニュースの記事です。</a></li>
+<li><a href="#"><span>2021.11.02</span>2 つめのニュースの記事です。</a></li>
+<li><a href="#"><span>2021.11.03</span>3 つめのニュースの記事です。</a></li>
+</ul>
 <!--==============ボタンとナビゲーション===============-->
 <div class="openbtn"><span></span><span></span><span></span></div>
 <nav id="g-nav">
@@ -62,6 +72,10 @@
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+<!--自作のJS-->
+<script src="newsticker.js"></script>
+</body>
 <!--自作のJS-->
 <script src="navigation.js"></script>
 <!--自作のJS-->
