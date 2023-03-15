@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
 /*==================================================
 ギャラリーのためのcss
 ===================================*/
@@ -116,7 +117,7 @@ opacity: 1;
 #g-nav li{
 	text-align: center; 
 	list-style: none;
-  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  font-family: 'Kiwi Maru', sans-serif;
 }
 
 #g-nav li a{
@@ -127,7 +128,7 @@ opacity: 1;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	font-weight: bold;
-  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  font-family: 'Kiwi Maru', sans-serif;
 }
 
 
@@ -307,24 +308,23 @@ hr {
 
 /*========= レイアウトのためのCSS ===============*/
 html {
-   font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  font-family: 'Kiwi Maru', sans-serif;
 }
-
 body{
   background-color: lightseagreen;
-  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  font-family: 'Kiwi Maru', sans-serif;
 }
 
 ul{
   margin:0;
   padding: 0;
   list-style: none;
-  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+  font-family: 'Kiwi Maru', sans-serif;
 }
 
 a{
   color: #333;
-  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+  font-family: 'Kiwi Maru', sans-serif;
 }
 
 a:hover,
@@ -337,13 +337,13 @@ h1{
   font-size:3vw;
   color: palegoldenrod;
   margin:30px 0;
-  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+  font-family: 'Kiwi Maru', sans-serif;
 }
 
 p{
   margin:0 10px 10px 10px;
   word-wrap : break-word;
-  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+  font-family: 'Kiwi Maru', sans-serif;
 }
 
 /*画像を出現させるアニメーションCSS*/
