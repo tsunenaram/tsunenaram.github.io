@@ -81,13 +81,14 @@ padding:0 15px;/*ギャラリー左右に余白をつける*/
 animation-name:fadeUpAnime;
 animation-duration:0.5s;
 animation-fill-mode:forwards;
+perspective-origin: left center;
 opacity: 0;
 }
 
 @keyframes fadeUpAnime{
   from {
     opacity: 0;
-	transform: translateY(100px);
+    transform: translateY(100px);
   }
 
   to {
