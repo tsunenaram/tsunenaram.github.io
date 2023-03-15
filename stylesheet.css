@@ -116,7 +116,7 @@ padding:0 15px;/*ギャラリー左右に余白をつける*/
     -webkit-overflow-scrolling: touch;
 }
 
-.g-nav.panelactive #g-nav-list{
+.g-nav.panelactive .g-nav-list{
      display: block; /*クラスが付与されたら出現*/
 }
 
@@ -159,6 +159,7 @@ opacity: 1;
 	text-align: center; 
 	list-style: none;
   font-family: 'Kiwi Maru', sans-serif;
+	color: darkorange; 
 }
 
 .g-nav li a{
@@ -169,7 +170,8 @@ opacity: 1;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	font-weight: bold;
-  font-family: 'Kiwi Maru', sans-serif;
+  	font-family: 'Kiwi Maru', sans-serif;
+	color: darkorange; 
 }
 
 
