@@ -136,24 +136,6 @@ padding:0 15px;/*ギャラリー左右に余白をつける*/
     opacity:1;
 }
 
-/* 背景が出現後にナビゲーション li を表示※レイアウトによって調整してください。不必要なら削除*/
-.g-nav.panelactive ul li{
-animation-name:gnaviAnime;
-animation-duration:1s;
-animation-delay:.2s;/*0.2 秒遅らせて出現*/
-animation-fill-mode:forwards;
-opacity:0;
-}
-@keyframes gnaviAnime{
-0% {
-opacity: 0;
-}
-100% {
-opacity: 1;
-}
-}
-
-
 /*リストのレイアウト設定*/
 .g-nav li{
 	text-align: center; 
