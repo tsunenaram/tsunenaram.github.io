@@ -75,7 +75,7 @@ padding:0 15px;/*ギャラリー左右に余白をつける*/
 /*========= ナビゲーションのためのCSS ===============*/
 
 /*アクティブになったエリア*/
-#g-nav.panelactive{
+.g-nav.panelactive{
     /*position:fixed;にし、z-indexの数値を大きくして前面へ*/
     position:fixed;
     z-index: 999;
