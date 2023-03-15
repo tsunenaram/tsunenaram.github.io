@@ -216,6 +216,7 @@ padding:0 15px;/*ギャラリー左右に余白をつける*/
     display: block;
     background:palegoldenrod;
     padding:20px;
+    border-radius: 10px;
 }
 
 /*日付*/
@@ -226,14 +227,7 @@ padding:0 15px;/*ギャラリー左右に余白をつける*/
     color:#777;
 }
 
-/*768px以下の見た目 ※1行のままにしたい場合は不要　*/
-@media screen and (max-width:768px) {
-    .slider {
-        padding:20px;
-        background:palegoldenrod;
-    }
-
-    .slider li {
+.slider li {
         border-bottom:1px dashed #ccc;
     }
 
@@ -254,6 +248,7 @@ hr {
   height: 1px;
   border: 0;
   border-top: 1px solid palegoldenrod;
+  border-radius: 10px;
 }
 
 .grid {
