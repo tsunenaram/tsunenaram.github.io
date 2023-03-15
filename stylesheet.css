@@ -105,7 +105,7 @@ padding:0 15px;/*ギャラリー左右に余白をつける*/
 }
 
 /*ナビゲーションの縦スクロール*/
-#g-nav-list{
+.g-nav-list{
     display: none;/*はじめは表示なし*/
     /*ナビの数が増えた場合縦スクロール*/
     position: fixed;
@@ -116,12 +116,12 @@ padding:0 15px;/*ギャラリー左右に余白をつける*/
     -webkit-overflow-scrolling: touch;
 }
 
-#g-nav.panelactive #g-nav-list{
+.g-nav.panelactive #g-nav-list{
      display: block; /*クラスが付与されたら出現*/
 }
 
 /*ナビゲーション*/
-#g-nav ul {
+.g-nav ul {
 	opacity: 0;/*はじめは透過0*/
     /*ナビゲーション天地中央揃え※レイアウトによって調整してください。不必要なら削除*/
     position: absolute;
@@ -132,12 +132,12 @@ padding:0 15px;/*ギャラリー左右に余白をつける*/
 }
 
 /*背景が出現後にナビゲーションを表示*/
-#g-nav.panelactive ul {
+.g-nav.panelactive ul {
     opacity:1;
 }
 
 /* 背景が出現後にナビゲーション li を表示※レイアウトによって調整してください。不必要なら削除*/
-#g-nav.panelactive ul li{
+.g-nav.panelactive ul li{
 animation-name:gnaviAnime;
 animation-duration:1s;
 animation-delay:.2s;/*0.2 秒遅らせて出現*/
@@ -155,13 +155,13 @@ opacity: 1;
 
 
 /*リストのレイアウト設定*/
-#g-nav li{
+.g-nav li{
 	text-align: center; 
 	list-style: none;
   font-family: 'Kiwi Maru', sans-serif;
 }
 
-#g-nav li a{
+.g-nav li a{
 	color: #333;
 	text-decoration: none;
 	padding:10px;
