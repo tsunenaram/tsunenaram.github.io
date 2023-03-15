@@ -248,12 +248,12 @@ a:hover {
 hr {
   height: 1px;
   border: 0;
-  border-top: 1px solid palegoldenrod;
+  border-top: 1px solid;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: 1rem;
   margin-bottom: 1.5rem;
   padding: 20px;
