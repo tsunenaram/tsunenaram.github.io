@@ -89,7 +89,7 @@ opacity: 0;
 @keyframes fadeUpAnime{
   from {
     	opacity: 0;
-    	transform: translateY(100px),scale(1.02);
+    	transform: translateY(100px) scale(1.02);
 	filter: blur(10px);
   
   }
