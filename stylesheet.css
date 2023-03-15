@@ -297,6 +297,7 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: palegoldenrod;
 }
 
 .scroll-top a {
