@@ -32,7 +32,7 @@ h1{
   text-align: center;
   font-size:6vw;
   color: palegoldenrod;
-  margin:30px 0;
+  margin:20px 0;
   font-family: 'Kiwi Maru', sans-serif;
 }
 
@@ -50,6 +50,7 @@ p{
     display: block;
     background:palegoldenrod;
     padding:15px;
+    margin: 10px;
 }
 
 /*日付*/
