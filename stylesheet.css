@@ -49,7 +49,7 @@ p{
 .slider a{
     display: block;
     background:palegoldenrod;
-    padding:20px;
+    padding:15px;
 }
 
 /*日付*/
@@ -63,7 +63,7 @@ p{
 /*768px以下の見た目　※1行のままにしたい場合は不要*/
 @media screen and (max-width:768px) {
     .slider {
-        padding:20px;
+        padding:15px;
         background:palegoldenrod;
     }
 
