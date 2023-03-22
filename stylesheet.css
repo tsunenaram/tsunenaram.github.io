@@ -65,6 +65,7 @@ p{
     .slider {
         padding:15px;
         background:palegoldenrod;
+	margin: 15px;
     }
 
     .slider li {
