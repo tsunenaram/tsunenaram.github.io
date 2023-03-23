@@ -298,8 +298,8 @@ opacity: 0;
     height: 25px;
     line-height: 25px;
     font-size: 17px;
-    background: #62c1ce;
-    color: #ffffff;
+    background: darkorange;
+    color: palegoldenrod;
     font-weight: bold;
     border-radius: 5px 5px 0 0;
 }
