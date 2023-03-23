@@ -285,9 +285,10 @@ opacity: 0;
 /*========= ボックスのためのCSS ===============*/
 .box27 {
     position: relative;
-    margin: 2em 0;
+    margin: 4em 0;
     padding: 0.5em 1em;
     border: solid 3px darkorange;
+    background: #ffffff;
 }
 .box27 .box-title {
     position: absolute;
