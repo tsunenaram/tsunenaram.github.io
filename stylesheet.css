@@ -51,6 +51,7 @@ p{
     background:palegoldenrod;
     padding:15px;
     text-align: left;
+    border-radius: 10px;
 }
 
 /*日付*/
@@ -285,10 +286,12 @@ opacity: 0;
 /*========= ボックスのためのCSS ===============*/
 .box27 {
     position: relative;
-    margin: 4em 0;
+    margin: 15px 0;
     padding: 0.5em 1em;
     border: solid 3px darkorange;
     background: #ffffff;
+    border-radius: 10px;
+	
 }
 .box27 .box-title {
     position: absolute;
