@@ -48,6 +48,7 @@ header img{
 }
 
 
+
 /* Loading背景画面設定　*/
 #splash {
 /*fixedで全面に固定*/
@@ -351,6 +352,16 @@ opacity: 0;
 .box27 p {
     margin: 0; 
     padding: 0;
+}
+
+box27 img{
+	width: 20%
+	} 
+
+@media only screen and (max-width: 900px) {
+  .box27 img{
+  width: 90%
+  } 
 }
 
 /*========= フッターのためのCSS ===============*/
