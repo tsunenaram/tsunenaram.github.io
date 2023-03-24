@@ -34,6 +34,10 @@ p{
   margin:0 10px 10px 10px;
   word-wrap : break-word;
 }
+img{
+  width:100%;
+  height:auto;
+ }
 
 /*==================================================
 ニュースティッカーのためのcss
