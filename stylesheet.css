@@ -5,22 +5,17 @@
 html {
   font-family: 'Kiwi Maru', sans-serif;
   text-align: center;
-}
-body{
   background-color: lightseagreen;
-  font-family: 'Kiwi Maru', sans-serif;
 }
 
 ul{
   margin:0;
   padding: 0;
   list-style: none;
-  font-family: 'Kiwi Maru', sans-serif;
 }
 
 a{
   color: #333;
-  font-family: 'Kiwi Maru', sans-serif;
 }
 
 a:hover,
@@ -33,13 +28,11 @@ h1{
   font-size:6vw;
   color: palegoldenrod;
   margin:20px 0;
-  font-family: 'Kiwi Maru', sans-serif;
 }
 
 p{
   margin:0 10px 10px 10px;
   word-wrap : break-word;
-  font-family: 'Kiwi Maru', sans-serif;
 }
 
 /*==================================================
@@ -115,30 +108,25 @@ padding:0 15px;/*ギャラリー左右に余白をつける*/
   } 
 }
 
-/*==================================================
-動かしたい動き（今回は” ふわっ” を採用）
-===================================*/
+/*画像を出現させるアニメーションCSS*/
 
-.fadeUp {
-animation-name:fadeUpAnime;
-animation-duration:1s;
+.flipLeft{
+animation-name: flipLeft;
+animation-duration:0.5s;
 animation-fill-mode:forwards;
 perspective-origin: left center;
 opacity: 0;
 }
 
-@keyframes fadeUpAnime{
+@keyframes flipLeft{
   from {
-    	opacity: 0;
-    	transform: translateY(0);
-	filter: blur(10px);
-  
+   transform: perspective(600px) translate3d(0, 0, 0) rotateY(30deg);
+  opacity: 0;
   }
 
   to {
-    	opacity: 1;
-	filter: blur(0);
-	transform: translateY(100px) scale(1.02);
+  transform: perspective(600px) translate3d(0, 0, 0) rotateY(0deg);
+  opacity: 1;
   }
 }
 
@@ -211,23 +199,17 @@ opacity: 0;
 }
 
 /*リストのレイアウト設定*/
-.g-nav li{
-	text-align: center; 
+.g-nav li{ 
 	list-style: none;
-  font-family: 'Kiwi Maru', sans-serif;
-	color: darkorange; 
-	
 }
 
 .g-nav li a{
-	color: #333;
+	color: darkorange; 
 	text-decoration: none;
 	padding:10px;
 	display: block;
 	letter-spacing: 0.1em;
-	font-weight: bold;
-  	font-family: 'Kiwi Maru', sans-serif;
-	color: darkorange; 
+	font-weight: bold; 
 }
 
 /*========= ボタンのためのCSS ===============*/
@@ -325,19 +307,7 @@ hr {
 .footer {
   padding: 2rem;
   font-size: 15px;
-  color: #4b5564;
-  background:lightseagreen;
 }
-
-.footer__navi-heading {
-  font-weight: 600;
-}
-
-.footer__logo {
-  display: inline-block;
-  margin-bottom: 2rem;
-}
-
 
 .footer__social a {
   display: inline-block;
@@ -348,39 +318,11 @@ hr {
 .footer__social a:not(:last-child) {
   margin-right: 16px;
 }
-
-@media (min-width: 768px) {
-  .md-flex {
-    display: flex;
-  }
-
-  .md-justify-between {
-    justify-content: space-between;
-  }
-
   .grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
 /*========= スクロールトップのためのCSS ===============*/
-.scroll-top {
-  // ボタンを右下で固定位置にする
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  
-  width: 35px;
-  height: 35px;
-  background: white;
-  border-radius: 50%;
-  cursor: pointer;
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: palegoldenrod;
-}
-
 .scroll-top a {
   text-decoration: none;
   color: palegoldenrod;
