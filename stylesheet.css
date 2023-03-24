@@ -59,6 +59,7 @@ header img{
   background:palegoldenrod;
   text-align:center;
   color: palegoldenrod;
+  opacity: 0.5;
 }
 
 /* Loading画像中央配置　*/
