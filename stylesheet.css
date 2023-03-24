@@ -42,7 +42,6 @@ img{
  }
 
 header img{
-  display: flex;
   width: 20%;
   height: auto;
   align-items: center;
