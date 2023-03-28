@@ -40,6 +40,10 @@ img{
   height:auto;
   align-items: center;
  }
+qr img{
+ width; 100%
+ padding; 15px;
+}
 
 header img{
   width: 20%;
@@ -50,12 +54,14 @@ header img{
 @media only screen and (max-width: 900px) {
   header img{
   width: 50%;
+  padding; 15px;
   } 
 }
 
 @media only screen and (max-width: 768px) {
   header img{
   width: 100%;
+  padding; 15px;
   } 
 }
 
