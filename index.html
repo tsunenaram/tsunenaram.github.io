@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html>
+<!-- Google CDNからjQuryを読み込む -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<!-- ダウンロードしたlazyload.jsの読み込み -->
+<script src="js/jquery.lazyload.min.js"></script>
 <head>
   <meta charset="utf-8">
   <title>無常工業 | Impermanent Industries Co.,Ltd.</title>
@@ -48,7 +52,8 @@
 
 <!--==============ギャラリー===============-->
   <ul class="gallery">
-    <li><a href="https://github.com/tsunenaram/tsunenaram.github.io/blob/main/img/nagi5.jpg?raw=true" data-lightbox="gallery1" data-title="アイドルマスターシンデレラガールズ 久川凪 凪めく日々のおとぎ話 2025.1.14"><img src="https://github.com/tsunenaram/tsunenaram.github.io/blob/main/img/nagi5.jpg?raw=true" alt=""></a></li>
+    <img class="lazy" src="画像のURL" data-original="画像のURL">
+    <li>< <img class="lazy" src="https://github.com/tsunenaram/tsunenaram.github.io/blob/main/img/nagi5.jpg?raw=true" data-original="https://github.com/tsunenaram/tsunenaram.github.io/blob/main/img/nagi5.jpg?raw=true" data-lightbox="gallery1" data-title="アイドルマスターシンデレラガールズ 久川凪 凪めく日々のおとぎ話 2025.1.14"><img src="https://github.com/tsunenaram/tsunenaram.github.io/blob/main/img/nagi5.jpg?raw=true" alt=""></a></li>
     <li><a href="https://github.com/tsunenaram/tsunenaram.github.io/blob/main/img/pp1.jpg?raw=true" data-lightbox="gallery1" data-title="ポケットモンスタースカーレット ペパー 2024.11.23 Photo by @higetamayuo"><img src="https://github.com/tsunenaram/tsunenaram.github.io/blob/main/img/pp1.jpg?raw=true" alt=""></a></li>
     <li><a href="https://github.com/tsunenaram/tsunenaram.github.io/blob/main/img/nagi4.jpg?raw=true" data-lightbox="gallery1" data-title="アイドルマスターシンデレラガールズ 久川凪"><img src="https://github.com/tsunenaram/tsunenaram.github.io/blob/main/img/nagi1.jpg?raw=true" alt=""></a></li>
     <li><a href="https://github.com/tsunenaram/tsunenaram.github.io/blob/main/img/pp2.jpg?raw=true" data-lightbox="gallery1" data-title="ポケットモンスタースカーレット ペパー 2024.11.23 Photo by @higetamayuo"><img src="https://github.com/tsunenaram/tsunenaram.github.io/blob/main/img/pp2.jpg?raw=true" alt=""></a></li>
@@ -90,6 +95,7 @@
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js"></script>
 <!--自作のJS-->
+
 <script src="navigation.js"></script>
 <script src="lightbox.js"></script>
 <script src="scrolltop.js"></script>
